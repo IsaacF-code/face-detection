@@ -6,6 +6,11 @@ capture = cv2.VideoCapture(0, cv2.CAP_DSHOW)
 
 while True:
     retangule, frame = capture.read()
+    
+    if not retangule:
+        print("Erro ao capturar frame da webcam.")
+        break
+
     gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
     faces = face_classifier.detectMultiScale(gray, scaleFactor=1.3, minNeighbors=5, minSize=(25, 25))
 
@@ -17,5 +22,5 @@ while True:
     if cv2.waitKey(1) & 0xFF == ord("q"):
         break
 
-    capture.release()
-    cv2.destroyAllWindows()
+capture.release()
+cv2.destroyAllWindows()
