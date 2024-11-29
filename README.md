@@ -14,6 +14,6 @@ para baixar a biblioteca do opencv.
 
 No diretório que o projeto estiver, rode o comando:
 `python face_detection.py`
-no CMD (Windows) ou Git Bash, para executar o projeto. Você pode também utilizar o VS Code para executar o código, onde o `botão executar` fica no canto superior direito com o ícone de "play"
+no CMD (Windows) ou Git Bash, para executar o projeto. Você pode também utilizar o VS Code para executar o código, onde o `botão executar` fica no canto superior direito com o ícone de "play".
 
 Para fechar o projeto, clique na tecla `-q-` do seu teclado para encerrar a execução do código.
