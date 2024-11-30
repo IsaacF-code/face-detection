@@ -1,6 +1,6 @@
 # Face-Detection
 
-> Projeto feito para disciplina de SAD (Sistemas de apoio à Decisão). O projeto detecta rostos, utilizando a webcam do computador
+> Projeto feito para disciplina de SAD (Sistemas de apoio à Decisão). O projeto detecta rostos, utilizando a webcam do computador.
 
 ## 💻 Pré-requisitos
 
